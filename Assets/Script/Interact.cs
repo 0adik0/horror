@@ -36,6 +36,10 @@ public class Interact : MonoBehaviour
                 {
                     hit.collider.GetComponent<List>().MapActive();
                 }
+                if(hit.collider.tag == "Key")
+                {
+                    hit.collider.GetComponent<Width>().AddLife();
+                }
             }
         }
         else

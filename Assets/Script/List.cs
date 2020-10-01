@@ -19,10 +19,5 @@ public class List : MonoBehaviour
     {
         if(Icon != null)
         Icon.enabled = true;
-        else
-        {
-            if(Icon != null)
-            Icon.enabled = false;
-        }
     }
 }

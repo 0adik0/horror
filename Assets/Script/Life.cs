@@ -7,7 +7,7 @@ public class Life : MonoBehaviour
     GameObject player;
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Untagged");
     }
 
     public void UseLife()
